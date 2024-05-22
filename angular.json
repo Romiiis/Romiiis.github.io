@@ -6,6 +6,12 @@
     "MyWeb": {
       "projectType": "application",
       "schematics": {},
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "cs": "locale/messages.cs.xlf"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,6 +19,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
+            "i18nMissingTranslation": "warning",
             "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -30,6 +38,12 @@
             "scripts": []
           },
           "configurations": {
+            "cs": {
+              "localize": [
+                "cs"
+              ],
+              "outputPath": "docs/cs"
+            },
             "production": {
               "budgets": [
                 {
@@ -88,6 +102,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

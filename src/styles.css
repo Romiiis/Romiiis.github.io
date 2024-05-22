@@ -1,1 +1,36 @@
+:root {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light-theme {
+  --background-color: #fff;
+  --color: #4a90e2;
+  --card-background: #eaeaea;
+  --main-card-background: #ffffff;
+  --hover-color: #357abd;
+  --text-color: #444444;
+  --border-color: #e3e3e3;
+  --button-text-color: #ffffff;
+}
+
+
+.dark-theme {
+  --background-color: #151414;
+  --color: #f9fafb;
+  --card-background: #414141;
+  --main-card-background: #2d2d2d;
+  --hover-color: #f9fafb;
+  --text-color: #c0c0c0;
+  --border-color: #333333;
+  --button-text-color: #444444;
+}

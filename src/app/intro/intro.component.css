@@ -1,29 +1,15 @@
+
+
 /* General reset to ensure consistency across browsers */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+
+
 }
 
-body {
-  background-color: #f0f2f5;
-  color: #333;
-  line-height: 1.6;
-}
-/* Styling for the introduction section */
-.introduction {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 20px;
-  text-align: center;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 900px;
-  margin: 50px auto;
-}
 
 /* Styling for the social links */
 .social-links {
@@ -34,13 +20,15 @@ body {
 }
 
 .social-links a {
-  color: #4A90E2;
+  /*color: #4A90E2;*/
+  color: var(--color);
   font-size: 1.8em;
   transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #357ABD;
+  /*color: #357ABD;*/
+  color: var(--hover-color);
 }
 
 
@@ -48,10 +36,11 @@ body {
 .introduction {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
   padding: 50px 20px;
   text-align: center;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-color: var(--main-card-background);
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 900px;
@@ -65,7 +54,8 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-  border: 3px solid #4a90e2;
+  /*border: 3px solid #4a90e2;*/
+  border: 3px solid var(--color);
   transition: transform 0.3s ease;
 }
 
@@ -82,7 +72,8 @@ body {
 .introduction h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
-  color: #4a90e2;
+  /*color: #4a90e2;*/
+  color: var(--color);
   font-weight: 700;
 }
 
@@ -90,29 +81,9 @@ body {
 .introduction p {
   font-size: 1.2em;
   margin-bottom: 20px;
-  color: #666;
+  /*color: #666;*/
+  color: var(--text-color);
 }
-
-/*!* Styling for the info cards container *!*/
-/*.info-cards {*/
-/*  display: flex;*/
-/*  flex-wrap: wrap;*/
-/*  gap: 20px;*/
-/*  justify-content: center;*/
-/*  margin-bottom: 20px;*/
-/*}*/
-
-/*!* Styling for each info card *!*/
-/*.info-card {*/
-/*  background: #eaeaea;*/
-/*  border: 1px solid #e3e3e3;*/
-/*  border-radius: 10px;*/
-/*  padding: 20px;*/
-/*  width: 45%;*/
-/*  min-width: 250px;*/
-/*  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);*/
-/*  transition: transform 0.3s ease, box-shadow 0.3s ease;*/
-/*}*/
 
 .info-cards {
   display: flex;
@@ -128,8 +99,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #eaeaea;
-  border: 1px solid #e3e3e3;
+  /*background: #eaeaea;*/
+  background: var(--card-background);
+  /*border: 1px solid #e3e3e3;*/
+  border: 1px solid var(--border-color);
   border-radius: 10px;
   padding: 20px;
   width: 45%;
@@ -152,21 +125,6 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-/*!* Styling for the info card headings *!*/
-/*.info-card h2 {*/
-/*  font-size: 1.4em;*/
-/*  margin-bottom: 10px;*/
-/*  color: #333;*/
-/*  font-weight: 600;*/
-/*}*/
-
-/*!* Styling for the info card paragraphs *!*/
-/*.info-card p {*/
-/*  !* in in vertical center *!*/
-/*  font-size: 1em;*/
-/*  color: #666;*/
-/*}*/
-
 
 /* Styling for the contact button */
 .contact-button {
@@ -174,8 +132,10 @@ body {
   padding: 12px 24px;
   margin-top: 20px;
   font-size: 1.2em;
-  color: #ffffff;
-  background-color: #4A90E2;
+  /*color: #ffffff;*/
+  color: var(--button-text-color);
+  /*background-color: #4A90E2;*/
+  background-color: var(--color);
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -184,7 +144,8 @@ body {
 }
 
 .contact-button:hover {
-  background-color: #357ABD;
+  /*background-color: #357ABD;*/
+  background-color: var(--hover-color);
   transform: translateY(-2px);
 }
 
@@ -194,3 +155,5 @@ body {
     width: 100%;
   }
 }
+
+
