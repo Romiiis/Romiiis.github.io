@@ -1,0 +1,15 @@
+{
+  "Web_title": "Romiiis - Personal website",
+  "Intro_header": "Hello, I'm Roman Pejs",
+  "Intro_text" : "I am a 21 year old student of computer science at the Faculty of Applied Sciences at the University of West Bohemia in Pilsen with a passion for programming.",
+  "Skills_header": "Skills",
+  "Skills_text": "Java, PHP, HTML, Angular, C, C#, Python, JavaScript",
+  "Experience_header": "Experience",
+  "Experience_text": "I'm currently working in a students lab at ",
+  "Education_header": "Education",
+  "Education_text": "Currently in the second year of bachelor studies at the Faculty of Applied Sciences at the University of West Bohemia in Pilsen",
+  "Interests_header": "Interests",
+  "Interests_text": "VideoGames, Programming, Guitar playing, Star Wars fan",
+  "Contact_text": "I am always eager to learn new technologies and take on new challenges. If you’d like to collaborate or just have a chat, feel free to reach out!",
+  "Contact_button": "Contact me"
+}

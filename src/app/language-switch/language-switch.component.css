@@ -1,0 +1,21 @@
+.language-switcher button {
+  cursor: pointer;
+  border: none;
+  margin-left: auto;
+  background-color: transparent;
+  padding: 5px; /* Add padding for better spacing */
+  position: relative;
+}
+
+.language-switcher button img {
+  width: 40px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.language-switcher button img:hover {
+  transform: scale(1.1); /* Enlarge the flag on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add stronger shadow on hover */
+}
