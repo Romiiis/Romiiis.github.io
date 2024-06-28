@@ -1,0 +1,16 @@
+{
+  "Web_title": "Romiis - Portfolio",
+  "Intro_header": "Jmenuji se Roman Pejs",
+  "Intro_text" : "Jsem 21letý student informatiky na Fakultě aplikovaných věd Západočeské univerzity v Plzni s vášní pro programování.",
+  "Skills_header": "Technologie",
+  "Skills_text": "Java, PHP, HTML, Angular, C, C#, Python, JavaScript",
+  "Experience_header": "Zkušenosti",
+  "Experience_text": "V současné době pracuji ve studentské laboratoři v ",
+  "Education_header": "Vzdělání",
+  "Education_text": "V současné době studuji druhý ročník bakalářského studia na Fakultě aplikovaných věd Západočeské univerzity v Plzni",
+  "Interests_header": "Zájmy",
+  "Interests_text": "Videohry, Programování, Hra na kytaru, Star Wars",
+  "Contact_text": "Vždy se rád učím novým technologiím a přijímám nové výzvy. Pokud byste chtěli spolupracovat nebo si jen popovídat, neváhejte mě kontaktovat!",
+  "Contact_button": "Kontaktujte mě"
+
+}
