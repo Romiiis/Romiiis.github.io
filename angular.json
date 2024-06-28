@@ -19,7 +19,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "localize": true,
+            "localize": ["en", "cs"],
             "i18nMissingTranslation": "warning",
             "outputPath": "docs",
             "index": "src/index.html",
@@ -108,5 +108,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "beb6a7a4-133d-4dde-b758-c537c6a99b68"
   }
 }
